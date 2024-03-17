@@ -25,7 +25,7 @@ ARCHIVER_ST_REVISION = "v${LINUX_VERSION}-${LINUX_TARGET}-${LINUX_RELEASE}"
 ARCHIVER_COMMUNITY_BRANCH = "linux-${LINUX_VERSION}.y"
 ARCHIVER_COMMUNITY_REVISION = "v${LINUX_VERSION}${LINUX_SUBVERSION}"
 
-S = "${WORKDIR}/${LINUX_TARBASE}"
+S = "${WORKDIR}/git"
 
 # ---------------------------------
 # Configure devupstream class usage
